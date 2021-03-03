@@ -12,6 +12,8 @@ public class JavaArrays {
 //        ARRAY LENGTH
         System.out.println(cars.length);
 
+
+
 //        LOOPING THROUGH ARRAYS
 //        see also FOR EACH loop in JavaFor class
         for (int i = 0; i < cars.length; i++) {
@@ -20,7 +22,7 @@ public class JavaArrays {
 
 //        MULTIDIMENSIONAL ARRAYS
         int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
-        int x = myNumbers[1][2];
+        int x = myNumbers[0][2];
         System.out.println(x); // Outputs 7
 
     }
