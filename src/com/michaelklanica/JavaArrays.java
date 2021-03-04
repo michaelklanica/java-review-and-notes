@@ -12,8 +12,6 @@ public class JavaArrays {
 //        ARRAY LENGTH
         System.out.println(cars.length);
 
-
-
 //        LOOPING THROUGH ARRAYS
 //        see also FOR EACH loop in JavaFor class
         for (int i = 0; i < cars.length; i++) {
